@@ -1,3 +1,62 @@
+input{
+    height: 30px;
+}
 .p-100{
     padding: 100px;
 }
+
+.pb-100{
+    padding-bottom: 100px;
+}
+
+.pt-100{
+    padding-top: 100px;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.form-title{
+    text-align: center;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid blueviolet;
+    padding: 20px;
+}
+.input-container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-group{
+    margin: 0 auto;
+}
+.input-box{
+    width: auto;
+}
+
+.btn-submit{
+    margin: 20px auto 0px auto;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+
+.input-label{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
